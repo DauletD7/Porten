@@ -1,0 +1,391 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  height: 44px;
+  left: 0px;
+  top: 0px;
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: #fff;
+  background: #000000;
+}
+
+.navs {
+  width:100%;
+  color: #969696;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+.navs p{    
+  margin: 0px;
+}
+.navs img {
+  height: fit-content;
+  margin-right: 16px;
+}
+
+.nav-2 img:nth-child(2){
+  position: relative;
+}
+.nav-2 img:nth-child(1){
+  position: absolute;
+}
+
+
+.header{
+  background: #0F0F0F;
+  padding: 15px 0;
+}
+.heads{
+  width: 100%;
+}
+.heads h1{
+  font-size: 36px;
+  font-family: 'Post No Bills Jaffna';
+  font-weight: bold;
+  margin: 0px;
+}
+.heads a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.head-2{
+  width: 50%;
+  justify-content: space-between;
+}
+.head-2 .ssilki{
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+}
+.head-2 .imgs{
+  width: 20%;
+}
+.head-2 img{
+  height: fit-content;
+}
+
+
+#hero{
+  background-image: url('../img/bground.png');
+  background-size: cover;
+  background-position: right;
+}
+#hero .hero-content{
+  padding-top: 160px;
+  padding-bottom: 154px;
+  text-align: center;
+}
+#hero .set-bl{  
+  display: block;
+  width: fit-content;
+  margin: auto;
+  border: 4px solid #FFFFFF;
+  padding: 9% 6.5%;    
+}
+
+#hero .set-bl h1{
+  margin: auto;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 96px;
+  border-bottom: 2px solid #fff;
+  width: fit-content;
+}
+#hero .set-block p{
+  font-size: 16px;
+  line-height: 150%;
+  margin-top: 80px;
+  margin-bottom: 0px;
+}
+
+
+#hero-2 .hero-content{
+  width: 100%;
+}
+#hero-2 .season{
+  width: 55%;
+  padding: 9% 8%;
+  text-align: center;
+}
+
+#hero-2 .season .ses p{
+  font-size: 36px;
+  line-height: 42px;
+  text-transform: uppercase;
+  margin: 0px;
+}
+#hero-2 .season .ses p::after{
+  content: '';
+  display: block;
+  width: 120px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid #FFFFFF;
+}
+
+#hero-2 .season .season-block div:nth-child(2){
+  margin-right: 5%;
+  margin-left: 5%;
+}
+#hero-2 .season .season-block img{
+  width: 100%;
+  height: fit-content;
+  background: #191B1C;
+  padding: 25% 22%;
+  margin-bottom: 2.5%;
+}
+#hero-2 .season .season-block div p{
+  margin-bottom: 0px;
+}
+#hero-2 .season .season-block div p:nth-child(3){
+  margin-top: 10px;
+}
+
+#hero-2 .new-coll {
+  width: 45%;    
+  background: url('../img/7.png');
+  background-size:cover;  
+}
+#hero-2 .new-coll .new-coll-2{
+  margin: 60% auto 0%;
+}
+#hero-2 .new-coll h1{
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  text-transform: uppercase;
+}
+#hero-2 .new-coll h1::after{
+  content: '';
+  display: block;
+  width: 120px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #FFFFFF;    
+}
+#hero-2 .new-coll .collection-bl{
+  display: block;
+  width: fit-content;
+  margin: auto;
+  padding: 12px 28px;
+  border: 1px solid #FFFFFF;
+}
+#hero-2 .new-coll .collection-bl p {
+  margin: 0px;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+
+
+#hero-3 {
+  width: 100%;
+}
+#hero-3 .set-block-1 {
+  width: 45%;    
+  background: url('../img/8.png');
+  background-size: cover; 
+}
+
+#hero-3 .set-block-2 {
+  width: 55%;
+}
+#hero-3 .set-block-2 h1{
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  line-height: 42px;
+  text-transform: uppercase;
+  margin: 0px;
+}
+#hero-3 .set-block-2 h1::after{
+  content: '';
+  display: block;
+  width: 120px;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #FFFFFF;    
+}
+#hero-3 .set-block-2 p{
+  font-size: 14px;
+  line-height: 150%; 
+  margin: 0px;
+}
+#hero-3 .set-block-2 h2{
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  display: block;
+  width: fit-content;
+  margin: auto;
+  margin-top: 70px;
+  padding: 12px 28px;
+  border: 1px solid #FFFFFF;
+}
+
+
+
+#hero-4 .hero-4-content {
+  width: 100%;
+  padding: 12% 0px;
+}
+#hero-4 .ses p{
+  font-family: 'Playfair Display';
+  margin: 0px;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+#hero-4 .ses p::after{
+  content: '';
+  display: block;
+  width: 120px;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 80px;
+  border-bottom: 1px solid #FFFFFF;    
+}
+#hero-4 .season-block:nth-child(2) { 
+  margin-top: 8%;   
+  margin-bottom: 8%;
+}
+#hero-4 .season-block img{
+  width: 100%;
+  height: fit-content;
+  background: #191B1C;
+  padding: 50px 20px;
+  margin-bottom: 25px;
+}
+#hero-4 .season-block div{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#hero-5 {
+  background: #0F0F0F;
+  padding: 60px 0px 80px;
+}
+#hero-5 .hero-5-content h1{
+  font-family: 'Playfair Display';
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  text-transform: uppercase;
+}
+#hero-5 .hero-5-content h1::after{
+  content: '';
+  display: block;
+  width: 120px;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #FFFFFF;    
+}
+
+
+
+#hero-6 {
+  width: 100%;
+  background:url('../img/10.png');
+  background-size: cover;
+}
+#hero-6 .hero-6-content{
+  padding: 80px 0px;
+}
+#hero-6 h1{
+  font-family: 'Playfair Display';
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  margin: 0px;
+  margin-bottom: 40px;
+}
+#hero-6 p{
+  font-size: 14px;
+  line-height: 150%;
+  margin: 0;
+}
+#hero-6 .hero-6-content .set-block-2 .bl-1{
+  margin-bottom: 10px;
+}
+#hero-6 .hero-6-content .set-block-2 .bl-2{
+  margin-bottom: 10px;
+}
+#hero-6 .hero-6-content .set-block-2 .bl-3{
+  margin-bottom: 20px;
+}
+#hero-6 .hero-6-content .set-block-2 .bl-1 div{
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 20px;
+  background: #0F0F0F;
+}
+#hero-6 .hero-6-content .set-block-2 .bl-1 div:nth-child(2){
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#hero-6 .hero-6-content .set-block-2 .bl-2 div{
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 20px;
+  margin-top: 30px;
+  background: #0F0F0F;
+}
+#hero-6 .hero-6-content .set-block-2 .bl-2 div:nth-child(2){
+  margin-left: 20px;
+}
+
+
+
+
+/* / Small devices (portrait tablets and large phones, 600px and up) / */
+@media only screen and (min-width: 600px) {
+ 
+  #hero-6 h1{
+      font-size: 16px;
+  }
+  #hero-6 p{
+      font-size: 12px;
+  }
+
+}
+
+/* / Medium devices (landscape tablets, 768px and up) / */
+@media only screen and (min-width: 768px) {
+  
+  #hero-6 h1{
+      font-size: 24px;
+  }
+  #hero-6 p{
+      font-size: 14px;
+  }    
+  
+  
+
+}
+
+/* / Large devices (laptops/desktops, 992px and up) / */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* / Extra large devices (large laptops and desktops, 1200px and up)  */
+@media only screen and (min-width: 1200px) {
+  
+
+}
